@@ -8,13 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      height: {
+        'main': 'calc(100vh - 96px)',
+      },
+      margin: {
+        'forAside': 'calc(20vw + 32px)',
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
+      },
+      extend: {
+        container: ['responsive'],
       },
     },
   },
+  darkMode: 'class',
   plugins: [],
 }
 export default config
