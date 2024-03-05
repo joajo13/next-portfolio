@@ -13,7 +13,7 @@ export const SkillCarousel = () => {
   return (
     <section>
       <div className="flex w-full justify-center items-center">
-        <div className="w-[800px] inline-flex flex-nowrap mt-36 overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+        <div className="w-[800px] inline-flex flex-nowrap mt-24 overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
           <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_li]:max-w-fit animate-infinite-scroll">
             <li>
               <SiNextdotjs size={36} />
