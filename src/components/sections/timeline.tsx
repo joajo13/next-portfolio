@@ -3,15 +3,15 @@ import { TimelineElement } from "./timeline-element";
 
 const experience = [
   {
+    date: "Actually",
+    title: "LeandroDapello",
+    content: "Fullstack developer.",
+  },
+  {
     date: "November, 2023",
     title: "LeandroDapello",
     content:
       "Fullstack developer at LeandroDapello consultory. Working in the frontend with differents technologies as React, Jquery, Tailwind, Bootstrap. And in the backend i was working with Node.js, Express, SQl, MySql, MongoDB, etc.",
-  },
-  {
-    date: "Actually",
-    title: "LeandroDapello",
-    content: "Fullstack developer.",
   },
 ];
 
