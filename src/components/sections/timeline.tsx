@@ -3,9 +3,9 @@ import { TimelineElement } from "./timeline-element";
 
 const experience = [
   {
-    date: "Actually",
+    date: "Currently",
     title: "LeandroDapello",
-    content: "Fullstack developer.",
+    content: "I'm currently working on three projects that are destined for the administration of three different companies. I'm in charge of handling the systems that are about the management of stocks, bills, clients, suppliers, etc. I'm also working on the institutional pages of two of them, from the design to the programming of each of them.",
   },
   {
     date: "November, 2023",

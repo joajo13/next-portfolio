@@ -14,15 +14,15 @@ export const Aside = () => {
           <span className="dark:text-slate-300">Fullstack dev.</span>
         </div>
         <div className=" bg-slate-200/30 p-4 m-4 rounded-xl flex justify-between">
-          <button className="rounded-xl dark:hover:bg-slate-100/30 hover:bg-slate-500/30 p-2 transition-all duration-300">
+          <a href="https://github.com/joajo13" target="_blank" className="rounded-xl dark:hover:bg-slate-100/30 hover:bg-slate-500/30 p-2 transition-all duration-300">
             <ImGithub className="text-2xl" />
-          </button>
-          <button className="rounded-xl dark:hover:bg-slate-100/30 hover:bg-slate-500/30 p-2 transition-all duration-300">
+          </a>
+          <a href="https://www.linkedin.com/in/juan-giupponi-018a9323b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="rounded-xl dark:hover:bg-slate-100/30 hover:bg-slate-500/30 p-2 transition-all duration-300">
             <SiUpwork className="text-2xl" />
-          </button>
-          <button className="rounded-xl dark:hover:bg-slate-100/30 hover:bg-slate-500/30 p-2 transition-all duration-300">
+          </a>
+          <a href="https://www.linkedin.com/in/juan-giupponi-018a9323b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="rounded-xl dark:hover:bg-slate-100/30 hover:bg-slate-500/30 p-2 transition-all duration-300">
             <ImLinkedin className="text-2xl" />
-          </button>
+          </a>
         </div>
         <div className="bg-slate-200/30 flex flex-col m-4 p-4 rounded-xl">
           <div className="bg-cyan-500/20 p-3 rounded-xl flex items-center w-full mb-3">
